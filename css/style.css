@@ -1,0 +1,67 @@
+body{
+background-color: rgb(246, 238, 226);
+font-family: "Century Gothic";
+}
+
+header{
+    height:60px ;
+    border-bottom: 1rem solid  rgb(155, 45, 109);
+}
+h1{
+    margin: 0px;
+}
+
+.title{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#img {
+    width: 500px;
+    height: auto; 
+}
+
+#form{
+ display: flex;
+ justify-content: center;   
+}
+
+dd{
+    padding-bottom: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#name,
+#jpresult,
+#n1{
+    width: 180px;
+    height: 25px;
+}
+
+/* 以下、read.phpの記述 */
+
+table{
+    background-color: azure;
+    margin-bottom: 30px;
+}
+
+th{
+    background-color: rgb(186, 186, 19);
+}
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px ;
+    padding-bottom:5px ;
+}
