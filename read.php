@@ -55,13 +55,25 @@
 
 <!-- 以下、表のグラフ化記述-->
 
+<?php
+$filename = 'data/data.txt';
+
+// ファイルを読み込み変数に格納
+$content = file_get_contents($filename);
+ 
+// ファイルの中身を出力
+$word = "ドイツ";
+$d = substr_count( $content, $word );
+$djson = json_encode($d); 
+
+?>
+
 <div class="container">
     <div style = "width :600px;">
         <canvas id="myChart"></canvas>
         <button type="button" id="btn">グラフを更新</button>
     </div>
 </div>
-
 
 
 <script>
